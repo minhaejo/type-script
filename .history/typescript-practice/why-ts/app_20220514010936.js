@@ -29,7 +29,7 @@ function fetchUser() {
   return axios.get(url);
 }
 fetchUser().then(function (response) {
-  response.Address;
+  response.Address.city;
 });
 
 console.log(fetchUser());
@@ -43,7 +43,7 @@ function startApp() {
       user = response.data;
       username.innerText = user[0].name;
       email.innerText = user[0].email;
-      address.innerText = user[0].address.street;
+      address.innerText = user[0].Address.street;
       // TODO: 이름, 이메일, 주소 표시하기
     })
     .catch(function (error) {

@@ -1,5 +1,5 @@
 // api url
-var url = "https://jsonplaceholder.typicode.com/users/";
+var url = "https://jsonplaceholder.typicode.com/users/1";
 
 // dom
 var username = document.querySelector("#username");

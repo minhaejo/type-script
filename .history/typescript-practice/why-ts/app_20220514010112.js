@@ -1,5 +1,5 @@
 // api url
-var url = "https://jsonplaceholder.typicode.com/users/";
+var url = "https://jsonplaceholder.typicode.com/users/1";
 
 // dom
 var username = document.querySelector("#username");
@@ -18,7 +18,7 @@ var user = {};
  * @typedef {object} User
  * @property {string} name
  * @property {string} email
- * @property {Address} Address
+ * @property {Address} address
  */
 
 /**
@@ -29,7 +29,7 @@ function fetchUser() {
   return axios.get(url);
 }
 fetchUser().then(function (response) {
-  response.Address;
+  response.address.city;
 });
 
 console.log(fetchUser());

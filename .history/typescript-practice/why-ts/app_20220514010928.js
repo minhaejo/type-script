@@ -29,7 +29,7 @@ function fetchUser() {
   return axios.get(url);
 }
 fetchUser().then(function (response) {
-  response.Address;
+  response.Address.city;
 });
 
 console.log(fetchUser());
