@@ -1,1 +1,0 @@
-function som(a, b) {}

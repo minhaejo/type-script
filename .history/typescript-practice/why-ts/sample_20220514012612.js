@@ -7,8 +7,8 @@
 
 //@ts-check
 
-// function sum(a, b) {
-//   return a + b;
-// }
-// sum(10, "20");
+function sum(a, b) {
+  return a + b;
+}
+sum(10, "20");
 //오류발생 ts-check의 효과때문에 b는 문자열 판단이라 사용될수없음
