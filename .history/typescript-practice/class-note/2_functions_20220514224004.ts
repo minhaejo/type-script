@@ -4,7 +4,4 @@ function add(): number {
 function sum(a: number, b: number): number {
   return a + b;
 }
-sum(10, 20);
-function log(a: string, b?: string) {}
-log("hello world");
-log("hello ts", "abc");
+sum(10, 20, 30, 40);

@@ -7,4 +7,3 @@ function sum(a: number, b: number): number {
 sum(10, 20);
 function log(a: string, b?: string) {}
 log("hello world");
-log("hello ts", "abc");
