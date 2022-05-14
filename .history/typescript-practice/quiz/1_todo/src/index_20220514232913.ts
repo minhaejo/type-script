@@ -20,11 +20,11 @@ function addTodo(todo:object):void {
   todoItems.push(todo);
 }
 
-function deleteTodo(index:number):void {
+function deleteTodo(index:number) {
   todoItems.splice(index, 1);
 }
 
-function completeTodo(index:number, todo:object):void {
+function completeTodo(index, todo) {
   todo.done = true;
   todoItems.splice(index, 1, todo);
 }

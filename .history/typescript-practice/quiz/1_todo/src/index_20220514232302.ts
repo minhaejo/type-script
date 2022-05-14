@@ -1,4 +1,4 @@
-let todoItems:object[];
+let todoItems : object[];
 
 // api
 function fetchTodoItems():object[] {
@@ -11,20 +11,20 @@ function fetchTodoItems():object[] {
 }
 
 // crud methods
-function fetchTodos():object[] {
+function fetchTodos() {
   const todos = fetchTodoItems();
   return todos;
 }
 
-function addTodo(todo:object):void {
+function addTodo(todo:object) {
   todoItems.push(todo);
 }
 
-function deleteTodo(index:number):void {
+function deleteTodo(index:object[]) {
   todoItems.splice(index, 1);
 }
 
-function completeTodo(index:number, todo:object):void {
+function completeTodo(index, todo) {
   todo.done = true;
   todoItems.splice(index, 1, todo);
 }
@@ -34,7 +34,7 @@ function logFirstTodo() {
   return todoItems[0];
 }
 
-function showCompleted() {
+function showCompleted():boolean {
   return todoItems.filter(item => item.done);
 }
 

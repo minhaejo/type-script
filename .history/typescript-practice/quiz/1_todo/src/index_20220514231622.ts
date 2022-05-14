@@ -1,7 +1,7 @@
-let todoItems:object[];
+let todoItems:any;
 
 // api
-function fetchTodoItems():object[] {
+function fetchTodoItems() {
   const todos = [
     { id: 1, title: '안녕', done: false },
     { id: 2, title: '타입', done: false },
@@ -11,20 +11,20 @@ function fetchTodoItems():object[] {
 }
 
 // crud methods
-function fetchTodos():object[] {
+function fetchTodos() {
   const todos = fetchTodoItems();
   return todos;
 }
 
-function addTodo(todo:object):void {
+function addTodo(todo):void {
   todoItems.push(todo);
 }
 
-function deleteTodo(index:number):void {
+function deleteTodo(index):void {
   todoItems.splice(index, 1);
 }
 
-function completeTodo(index:number, todo:object):void {
+function completeTodo(index:number, todo:void) {
   todo.done = true;
   todoItems.splice(index, 1, todo);
 }
