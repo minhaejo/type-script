@@ -12,13 +12,7 @@ let items: number[] = [1, 2, 3];
 let address: [string, number] = ["gangnam", 100];
 //객체
 let obj: object = {};
-// let person: object = {
-//   name: "cap",
-//   age: 100,
-// };
-let person: { name: string; age: number } = {
-  name: "thor",
-  age: 100,
+let person: object = {
+  name: "cap",
+  age: 10,
 };
-//진위
-let show: boolean = true;

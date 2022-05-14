@@ -16,9 +16,4 @@ let obj: object = {};
 //   name: "cap",
 //   age: 100,
 // };
-let person: { name: string; age: number } = {
-  name: "thor",
-  age: 100,
-};
-//진위
-let show: boolean = true;
+let person: { name: string; age: number } = {};

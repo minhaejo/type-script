@@ -21,4 +21,4 @@ let person: { name: string; age: number } = {
   age: 100,
 };
 //진위
-let show: boolean = true;
+let show = ture;
