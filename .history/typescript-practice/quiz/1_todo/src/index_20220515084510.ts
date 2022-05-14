@@ -1,7 +1,7 @@
 let todoItems:{id:number,title:string,done:boolean}[];
 
 // api
-function fetchTodoItems():{id:number,title:string,done:boolean}[] {
+function fetchTodoItems():object[] {
   const todos = [
     { id: 1, title: '안녕', done: false },
     { id: 2, title: '타입', done: false },
