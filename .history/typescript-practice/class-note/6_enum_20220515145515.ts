@@ -19,4 +19,5 @@ function askQuestion(answer:Answer) {
     }
 }
 askQuestion(Answer.Yes)
-
+askQuestion("y")
+askQuestion("Yes")

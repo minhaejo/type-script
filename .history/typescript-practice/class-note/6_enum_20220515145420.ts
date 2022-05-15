@@ -18,5 +18,6 @@ function askQuestion(answer:Answer) {
         console.log("오답입니다")
     }
 }
-askQuestion(Answer.Yes)
-
+askQuestion("예스")
+askQuestion("y")
+askQuestion("Yes")

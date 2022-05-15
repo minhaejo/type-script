@@ -14,9 +14,10 @@ function askQuestion(answer:Answer) {
     if (answer ===Answer.Yes) {
         console.log("정답입니다")
     }
-    if (answer===Answer.No) {
+    if (answer==="no") {
         console.log("오답입니다")
     }
 }
-askQuestion(Answer.Yes)
-
+askQuestion("예스")
+askQuestion("y")
+askQuestion("Yes")

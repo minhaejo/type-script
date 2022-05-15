@@ -5,18 +5,14 @@ enum Shoes{
 var myShoes = Shoes.Nike
 console.log(myShoes)
 
-enum Answer {
-    Yes = "Y",
-    No = "N"
-}
-
-function askQuestion(answer:Answer) {
-    if (answer ===Answer.Yes) {
+function askQuestion(answer:string) {
+    if (answer ==="yes") {
         console.log("정답입니다")
     }
-    if (answer===Answer.No) {
+    if (answer==="no") {
         console.log("오답입니다")
     }
 }
-askQuestion(Answer.Yes)
-
+askQuestion("예스")
+askQuestion("y")
+askQuestion("Yes")
