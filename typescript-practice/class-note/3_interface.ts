@@ -62,8 +62,8 @@ interface Developer extends Person1{
     language:string,
 }
 
-var captain:Developer={
-    name:"capt",
-    age:30,
-    language:"ko"
-}
+// var captain:Developer={
+//     name:"capt",
+//     age:30,
+//     language:"ko"
+// }

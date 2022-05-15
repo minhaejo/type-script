@@ -68,3 +68,5 @@ function log():void {
 todoItems = fetchTodoItems();
 addTwoTodoItems();
 log();
+
+
