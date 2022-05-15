@@ -53,12 +53,12 @@ Object.keys(obj).forEach((value)=>{
 })
 
 //인터페이스 확장 extends
-interface Person1{
+interface Person{
     name:string,
     age:number
 }
 
-interface Developer extends Person1{
+interface Developer extends Person{
     language:string,
 }
 

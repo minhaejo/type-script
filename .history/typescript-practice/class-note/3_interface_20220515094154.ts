@@ -8,7 +8,6 @@ var seho: User = {
     name:"세호"
 }
 //함수의 인터페이스 활용
-
 function getUser(user:User) {
     console.log(user)
 }
@@ -17,9 +16,7 @@ const capt ={
     age:20
 }
 getUser(capt)
-
 //함수 스펙에 인터페이스 구조 활용
-
  interface SumFunction  {
      (a:number,b:number):number
  }
@@ -34,7 +31,7 @@ getUser(capt)
  }
 
  var arr : StringArray=["a","b","c"]
-//  arr[0] =10 오류 
+//  arr[0] =10
 
 //딕셔너리패턴
 interface StringRegexDictionary {
@@ -44,26 +41,5 @@ interface StringRegexDictionary {
 }
 var obj:StringRegexDictionary= {
     // sth:/abc/,
-    cssFile:/\.css$/,
-    jsFile:/\.js$/
-}
-// obj[cssFile] = "a" 오류 
-
-Object.keys(obj).forEach((value)=>{
-})
-
-//인터페이스 확장 extends
-interface Person1{
-    name:string,
-    age:number
-}
-
-interface Developer extends Person1{
-    language:string,
-}
-
-var captain:Developer={
-    name:"capt",
-    age:30,
-    language:"ko"
+    csdFile:/\.css$/
 }
